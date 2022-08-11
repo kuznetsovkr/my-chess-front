@@ -1,0 +1,97 @@
+.nickname_user{
+    font-family: "Acherus Feral";
+    font-size: calc(0.5rem + 1vw);
+    margin: 0;
+}
+.container_board_before{
+    display: flex;
+    flexDirection: row;
+}
+.board_before{
+    width: 720px;
+    height: 720px;
+    border: 3px solid black;
+}
+.board_game{
+    width: 720px;
+    height: 720px;
+    border: 3px solid black;
+}
+.input_name{
+    display: flex;
+    flex-direction: column;
+    font-family: "Hero";
+
+    margin-top: calc(0.5rem + 1vw);
+}
+.input_name p{
+    font-size: calc(1rem + 1vw);
+}
+.input_name input{
+    font-size: calc(0.3rem + 0.8vw);
+    border-radius: 5px;
+}
+.input_name button{
+    margin-top: 25px;
+    font-size: calc(1rem + 1vw);
+    border-radius: 10px;
+}
+.wait_opponent{
+    margin-top: calc(0.5rem + 1vw);
+    margin-left: 1vw;
+    font-family: "Hero";
+}
+.text_wait_opponent{
+    font-size: calc(1rem + 0.8vw);
+}
+.wait_opponent button{
+    margin-top: 25px;
+    font-size: calc(1rem + 0.8vw);
+    border-radius: 10px;
+}
+.side_bar{
+    background-color: #eae9e9;
+    width: 230px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    border-right: 3px solid darkgray;
+}
+.side_bar .logo {
+    max-width: 180px;
+}
+.side_bar .text_logo{
+    font-family: Onest;
+    color: #373737;
+    font-size:calc(1.2rem + 1vw); ;
+}
+.text_exit{
+    font-family: Onest;
+    color: #373737;
+    font-size:calc(2rem + 1vw);
+}
+.footer_text{
+    font-family: 'Montserrat', sans-serif;
+    color: #777676;
+    margin: 0;
+    text-align: center;
+    font-size: 10px;
+}
+@font-face {
+    font-family: "Acherus Feral";
+    src: url("../chess/fonts/Acherus Feral.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Onest";
+    src: url("../chess/fonts/Onest.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Hero";
+    src: url("../chess/fonts/Hero.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
